@@ -1,6 +1,6 @@
 # Vue.js - integratie Sass
 
-We gaan het resultaat van [scss-opdracht2](https://classroom.github.com/classrooms/155744625-pxl-1dvo-web-advanced-2324/assignments/SCSS-Opdracht2) integreren in een Vue applicatie. 
+We gaan het resultaat van [scss-opdracht2](https://github.com/PXL-1DVO-WebAdvanced/scss-opdracht2/blob/oplossing/index.html) integreren in een Vue applicatie. 
 
 ## Setup
 - Maak een nieuw Vue project aan (bij het aanmaken moet je geen enkele van de opties gebruiken)
@@ -17,7 +17,7 @@ We gaan het resultaat van [scss-opdracht2](https://classroom.github.com/classroo
 Omdat Vite gebruikt wordt voor de build van onze Vue applicatie kan de Sass code op een efficiëntere manier gebruikt worden. 
 - Installeer het Sass package:
 
-        npm add -D sass
+        npm install -D sass
 
     -D staat voor *dev*, We gaan het builden namelijk enkel gebruiken tijdens development. [(Meer info)](https://vitejs.dev/guide/features.html#css-pre-processors)
 
