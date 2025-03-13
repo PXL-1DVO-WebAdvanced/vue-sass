@@ -1,0 +1,21 @@
+@use 'globals' as *;
+
+.banner {
+    @include margin-padding(3px);
+    h1 {
+        font: {
+            family: arial, sans-serif;
+            size: $font-lg;
+            weight: bold;
+        }
+        color: $color-secondary;
+        text: {
+            align: center;
+            transform: uppercase;
+        }
+    }
+    p {
+        @extend %background-primary;
+        font-size: increaseFontSize($font-sm)
+    }
+}

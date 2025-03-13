@@ -1,0 +1,21 @@
+@use 'globals' as *;
+
+.footer {
+    @include margin-padding(3px);
+    
+    h3 {
+        font-size: $font-md;
+        color: $color-primary;
+        text-align: center;
+    }
+    p {
+        @extend %background-primary;
+        color: $color-tertiary;
+        font-size: increaseFontSize(1rem)
+    }
+    &:hover {
+        background-color: $color-tertiary;
+        color: $color-primary;
+        @include color-transition(background-color 5s, color 0.5s);
+    }
+}

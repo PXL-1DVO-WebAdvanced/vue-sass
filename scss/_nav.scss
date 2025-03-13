@@ -1,0 +1,21 @@
+@use 'globals' as *;
+
+.nav {
+    @include margin-padding(5px);
+    background-color: $color-primary;
+
+    ul {
+        list-style-type: none;
+
+        li {
+            a {
+                color: $color-tertiary;
+                font-size: $font-md;
+
+                &:hover {
+                    color: $color-secondary;
+                }
+            }
+        }
+    }
+}
