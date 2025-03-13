@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> Maak een *fork* van deze repository naar je persoonlijk account voordat je een clone maakt!
+
 # Vue.js - integratie Sass
 
 We gaan het resultaat van [scss-opdracht2](https://github.com/PXL-1DVO-WebAdvanced/scss-opdracht2/blob/oplossing/index.html) integreren in een Vue applicatie. 
